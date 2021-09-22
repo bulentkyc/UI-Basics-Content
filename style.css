@@ -1,0 +1,47 @@
+h1 {
+    color: aqua;
+    margin: 0px;
+    background-color: bisque;
+    display:inline-block;
+}
+
+#first-header {
+    display: block;
+}
+
+span {
+    background-color: blueviolet;
+    font-size: 10px;
+}
+
+.red-text{
+    color: red;
+}
+
+ul {
+    background-color: royalblue;
+    color: white;
+}
+
+li {
+    background-color: sandybrown;
+}
+
+
+.person-info > p {
+    color: burlywood;
+}
+
+section ~ p {
+    color: chocolate;
+}
+
+section + p {
+    font-size: 30px;
+}
+
+
+.techs *:last-child {
+    background-color: olive;
+}
+
