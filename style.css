@@ -29,7 +29,7 @@ li {
 
 
 .person-info > p {
-    color: burlywood;
+    color: rgb(135, 141, 222);
 }
 
 section ~ p {
@@ -40,8 +40,24 @@ section + p {
     font-size: 30px;
 }
 
-
 .techs *:last-child {
     background-color: olive;
 }
 
+
+#Section1, #Section1 * {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#Section1 > div {
+    border: 2px solid khaki;
+}
+
+#Div2 ~  div {
+    border: 3px solid tomato;
+}
+
+section:last-child {
+    border: solid 5px greenyellow;
+}
