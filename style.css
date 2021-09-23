@@ -1,4 +1,4 @@
-h1 {
+h1:not(section:last-of-type h1) {
     color: aqua;
     margin: 0px;
     background-color: bisque;
@@ -15,7 +15,11 @@ span {
 }
 
 .red-text{
-    color: red;
+    color: #3768b3;
+}
+
+div.red-text {
+    border: 10px solid blue;
 }
 
 ul {
@@ -58,6 +62,10 @@ section + p {
     border: 3px solid tomato;
 }
 
-section:last-child {
-    border: solid 5px greenyellow;
+section:last-of-type > div:last-of-type {
+    background-color: cadetblue;
+}
+
+div:last-of-type > p:nth-of-type(4n+1){
+    border: 1px solid cornflowerblue;
 }
