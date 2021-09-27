@@ -1,0 +1,32 @@
+div {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
+
+section {
+    display: inline-block;
+    width: 160px;
+}
+
+main {
+    margin: auto;
+    width: 500px;
+}
+
+div:first-child {
+    background-color: rgb(240,165,0);
+}
+
+div:nth-child(2) {
+    background-color: hsl(0, 100%, 25%)
+}
+
+div:last-child {
+    background-color: #206a5d
+}

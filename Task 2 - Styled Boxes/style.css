@@ -1,0 +1,45 @@
+body {
+    background-color: #4d2d06;
+    text-align: center;
+    margin: 0;
+}
+
+article {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Odd articles start */
+article:nth-of-type(odd) {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article:nth-of-type(odd) > p {
+    font-family: Georgia, Times, serif;
+}
+
+article:nth-of-type(odd) em{
+    color: rgb(104, 104, 199);
+}
+
+/* Odd articles finishe and Even articles start */
+article:nth-of-type(even) {
+    background-color: #eee;
+    font-family: Georgia, Times, serif;
+}
+
+article:nth-of-type(even) > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article:nth-of-type(even) em{
+    color: rgb(231, 46, 248);
+}
+/* Even articles finishe */
+
+h1, p {
+    margin: 0;
+}
